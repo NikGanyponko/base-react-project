@@ -9,6 +9,12 @@ module.exports = {
     devServer: {
        port: 8080
     },
+    compilerOptions: {
+      "jsx": "react",
+      "lib": ["dom", "esnext"],
+      "module": "esnext",
+      "esModuleInterop": true
+    },
     module: {
        rules: [
           {
